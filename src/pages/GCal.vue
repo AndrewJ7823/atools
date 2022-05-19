@@ -33,9 +33,21 @@
           ></b-form-datepicker
         ></b-col>
       </b-row>
+      <b-row
+        ><b-col>
+          <b-button
+            block
+            variant="primary"
+            size="lg"
+            class="btn"
+            @click="copyToClipboard"
+            >복사</b-button
+          >
+        </b-col></b-row
+      >
       <b-row>
         <b-col
-          ><b-table striped bordered outlined :items="items">
+          ><b-table id="output" striped bordered outlined :items="items">
             <template #cell()="data">
               <div :class="{ disabled: !inRange(data.value.actual) }">
                 {{ data.value.month ? data.value.month + "/" : ""
@@ -54,7 +66,6 @@ import { Vue, Component } from "@/utils/vue-imports";
 import Navbar from "@/components/Navbar.vue";
 import { DateTime } from "luxon";
 import { Watch } from "vue-property-decorator";
-
 @Component({
   name: "GCal",
   components: {
@@ -82,6 +93,21 @@ export default class GCal extends Vue {
     const fromDt = DateTime.fromFormat(dt[0], "yyyy-LL-dd").toFormat("LL/dd");
     const toDt = DateTime.fromFormat(dt[1], "yyyy-LL-dd").toFormat("LL/dd");
     return fromDt <= str && toDt >= str;
+  }
+  async copyToClipboard() {
+    const table = document.getElementById("output");
+    const text = table?.parentElement?.innerHTML;
+    if (text) {
+      try {
+        const blob = new Blob([text], { type: "text/html" });
+        const ret = await navigator.clipboard.write([
+          new window.ClipboardItem({ [blob.type]: blob }),
+        ]);
+        console.log(ret);
+      } catch (e) {
+        console.error(e);
+      }
+    }
   }
   updateTable() {
     const dt = [this.from, this.to];

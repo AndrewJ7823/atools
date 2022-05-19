@@ -10,6 +10,11 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "gcal" */ "@/pages/GCal.vue"),
   },
   {
+    path: "/GCal",
+    name: "GCal",
+    component: () => import(/* webpackChunkName: "gcal" */ "@/pages/GCal.vue"),
+  },
+  {
     path: "/about",
     name: "About",
     component: () =>
