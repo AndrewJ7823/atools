@@ -1,9 +1,8 @@
-<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+<svg width="256" height="256" xmlns="http://www.w3.org/2000/svg">
  <g>
   <title>Layer 1</title>
-  <text fill="#001dff" stroke-width="0" x="192.04967" y="206.58309" id="svg_1" font-size="28" font-family="'Syne'" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(26.6484 0 0 26.6484 -5048.78 -4955.01)" font-weight="bold">A</text>
-  <text fill="#000000" stroke-width="0" x="205" y="376" id="svg_8" font-size="28" font-family="'Syne'" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(3.05898 0 0 3.05898 -1040.09 -728.998)" font-weight="normal">Tools</text>
-  <text opacity="0.5" font-weight="bold" transform="matrix(8.20634 0 0 8.20634 -475.618 -360.638)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Syne'" font-size="28" id="svg_2" y="111.70412" x="61.735" stroke-width="0" fill="#000000">Tools</text>
+  <text fill="#444dcf" stroke-width="0" x="128" y="240" id="svg_1" font-size="300" font-family="'Syne'" text-anchor="middle" stroke="#000" font-weight="bold">A</text>
+  <text fill="#fff" stroke-width="0" x="128" y="230" id="svg_8" font-size="100" font-family="'Syne'" text-anchor="middle" stroke="#000" font-weight="bold" opacity="1">Tools</text>
  </g>
 
 </svg>
