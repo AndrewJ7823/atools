@@ -1,9 +1,9 @@
 <template>
   <b-navbar type="dark" variant="dark" fixed="top">
-    <b-navbar-brand href="/">{{ title }}</b-navbar-brand>
+    <b-navbar-brand href="/atools/">{{ title }}</b-navbar-brand>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="/GCal">GCal</b-nav-item>
+        <b-nav-item href="/atools/GCal">GCal</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
