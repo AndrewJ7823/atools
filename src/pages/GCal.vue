@@ -45,6 +45,18 @@
           >
         </b-col></b-row
       >
+      <b-row
+        ><b-col>
+          <b-button
+            block
+            variant="primary"
+            size="lg"
+            class="btn"
+            @click="readClipboard"
+            >가져오기</b-button
+          >
+        </b-col>
+      </b-row>
       <b-row>
         <b-col
           ><b-table id="output" striped bordered outlined :items="items">
@@ -107,6 +119,17 @@ export default class GCal extends Vue {
       } catch (e) {
         console.error(e);
       }
+    }
+  }
+  async readClipboard() {
+    try {
+      alert(await navigator.clipboard);
+      const ret = await navigator.clipboard.read();
+      alert(ret);
+      console.log(ret);
+    } catch (e) {
+      alert(e);
+      console.log(e);
     }
   }
   updateTable() {
