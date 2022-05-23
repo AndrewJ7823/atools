@@ -1,6 +1,6 @@
 <template>
   <div class="GCal">
-    <b-container class="bv-example-row">
+    <b-container>
       <b-row>
         <b-col>
           <label for="from">From</label>

@@ -1,5 +1,5 @@
 <template>
-  <b-navbar type="dark" variant="dark" fixed="top">
+  <b-navbar type="dark" variant="dark" fixed="top" navbar-themed>
     <b-navbar-brand>
       <router-link to="/">{{ title }}</router-link>
     </b-navbar-brand>

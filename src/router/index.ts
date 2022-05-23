@@ -6,7 +6,8 @@ Vue.use(VueRouter);
 const routes: Array<RouteConfig> = [
   {
     path: "/",
-    redirect: "/GCal",
+    name: "Home",
+    component: () => import(/* webpackChunkName: "home" */ "@/pages/Home.vue"),
   },
   {
     path: "/GCal",

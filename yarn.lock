@@ -848,6 +848,15 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
+"@forevolve/bootstrap-dark@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@forevolve/bootstrap-dark/-/bootstrap-dark-2.1.0.tgz#ed0b89efc4861d58ec73c703898a2dddd0e34adb"
+  integrity sha512-yL9+stm6hIKmJ4a11hPx+mSMYCIOItNJb7Fh7BfJ3XxcBEaM7qFK+WngZ+jhwGSE0XcK98T+QC4JCHBOgpT+Ug==
+  dependencies:
+    bootstrap "^4.6.0"
+    jquery "^3.5.1"
+    popper.js "^1.16.1"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -2432,7 +2441,7 @@ bootstrap-vue@^2.22.0:
     portal-vue "^2.1.7"
     vue-functional-data-merge "^3.1.0"
 
-bootstrap@4.6.1, bootstrap@^4.6.1:
+bootstrap@4.6.1, bootstrap@^4.6.0, bootstrap@^4.6.1:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.6.1.tgz#bc25380c2c14192374e8dec07cf01b2742d222a2"
   integrity sha512-0dj+VgI9Ecom+rvvpNZ4MUZJz8dcX7WCX+eTID9+/8HgOkv3dsRzi8BGeZJCQU6flWQVYxwTQnEZFrmJSEO7og==
@@ -6510,6 +6519,11 @@ jest@^24.9.0:
   dependencies:
     import-local "^2.0.0"
     jest-cli "^24.9.0"
+
+jquery@^3.5.1:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
+  integrity sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
 
 js-base64@^2.1.8:
   version "2.5.2"
