@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "149cfd481ac2b3ded05b",
+    "revision": "7892d2148cfb159458b6",
     "url": "/atools/css/app.3ab55744.css"
   },
   {
-    "revision": "9e685280f72bba6460b3",
-    "url": "/atools/css/gcal.88d8ebb6.css"
+    "revision": "a0d8879b0ccb06c2904b",
+    "url": "/atools/css/gcal.4bbe977a.css"
   },
   {
     "revision": "38324a220478f4c83f37f54b698cfa06",
     "url": "/atools/img/vue-boilerplates.svg"
   },
   {
-    "revision": "0e2afaf4f738c5c49257762fa60b83ad",
+    "revision": "bfb79a4365fa0eb733cf35901e3888c3",
     "url": "/atools/index.html"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/atools/js/about.02c5d404.js"
   },
   {
-    "revision": "149cfd481ac2b3ded05b",
-    "url": "/atools/js/app.af2460a9.js"
+    "revision": "7892d2148cfb159458b6",
+    "url": "/atools/js/app.36b6dd34.js"
   },
   {
     "revision": "23381a2dbf77c9e55d6b",
@@ -60,12 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/atools/js/chunk-vendors~f9ca8911.dfa2322e.js"
   },
   {
-    "revision": "9e685280f72bba6460b3",
-    "url": "/atools/js/gcal.853ceee6.js"
+    "revision": "a0d8879b0ccb06c2904b",
+    "url": "/atools/js/gcal.a4a531ef.js"
   },
   {
-    "revision": "d6d95ac732d2cb73813e",
-    "url": "/atools/js/runtime~app.2739b389.js"
+    "revision": "63dc68036f1d38f9a21f",
+    "url": "/atools/js/runtime~app.f23e0812.js"
   },
   {
     "revision": "d19be80d05ba907cd175",
