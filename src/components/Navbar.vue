@@ -1,9 +1,11 @@
 <template>
   <b-navbar type="dark" variant="dark" fixed="top">
-    <b-navbar-brand href="/atools/">{{ title }}</b-navbar-brand>
+    <b-navbar-brand>
+      <router-link to="/">{{ title }}</router-link>
+    </b-navbar-brand>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="/atools/GCal">GCal</b-nav-item>
+        <b-nav-item> <router-link to="GCal">GCal</router-link></b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
