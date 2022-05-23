@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7892d2148cfb159458b6",
+    "revision": "e33672c02cb0c9999965",
     "url": "/atools/css/app.3ab55744.css"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/atools/img/vue-boilerplates.svg"
   },
   {
-    "revision": "bfb79a4365fa0eb733cf35901e3888c3",
+    "revision": "23ebc0d46f8f6f3cd30e0e5cceaadc55",
     "url": "/atools/index.html"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/atools/js/about.02c5d404.js"
   },
   {
-    "revision": "7892d2148cfb159458b6",
-    "url": "/atools/js/app.36b6dd34.js"
+    "revision": "e33672c02cb0c9999965",
+    "url": "/atools/js/app.a5e6faa6.js"
   },
   {
     "revision": "23381a2dbf77c9e55d6b",

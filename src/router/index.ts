@@ -5,11 +5,11 @@ Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
   {
-    path: "/",
-    redirect: "/GCal",
+    path: "/atools/",
+    redirect: "/atools/GCal",
   },
   {
-    path: "/GCal",
+    path: "/atools/GCal",
     name: "GCal",
     component: () => import(/* webpackChunkName: "gcal" */ "@/pages/GCal.vue"),
   },
