@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e33672c02cb0c9999965",
-    "url": "/atools/css/app.3ab55744.css"
+    "revision": "b59346cfcec5eca489a8",
+    "url": "/atools/css/app.9356a366.css"
   },
   {
-    "revision": "a0d8879b0ccb06c2904b",
-    "url": "/atools/css/gcal.4bbe977a.css"
+    "revision": "eb6cdcb860dac1885331",
+    "url": "/atools/css/gcal.632e5c39.css"
+  },
+  {
+    "revision": "99c32a6e26de7d528544",
+    "url": "/atools/css/home.d3d262bc.css"
   },
   {
     "revision": "38324a220478f4c83f37f54b698cfa06",
     "url": "/atools/img/vue-boilerplates.svg"
   },
   {
-    "revision": "23ebc0d46f8f6f3cd30e0e5cceaadc55",
+    "revision": "34b8efd2c6849d99f3f821ffe98f6616",
     "url": "/atools/index.html"
   },
   {
-    "revision": "60aec2cee51504429669",
-    "url": "/atools/js/about.02c5d404.js"
+    "revision": "e3d0fb49b191461fb932",
+    "url": "/atools/js/about.af405736.js"
   },
   {
-    "revision": "e33672c02cb0c9999965",
-    "url": "/atools/js/app.a5e6faa6.js"
+    "revision": "b59346cfcec5eca489a8",
+    "url": "/atools/js/app.c450d032.js"
   },
   {
-    "revision": "23381a2dbf77c9e55d6b",
-    "url": "/atools/js/chunk-vendors~253ae210.ff13fd2a.js"
+    "revision": "a2685fad6d6b8df581c5",
+    "url": "/atools/js/chunk-vendors~253ae210.aa854906.js"
   },
   {
     "revision": "f2121ce2895bc718128f",
@@ -60,12 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/atools/js/chunk-vendors~f9ca8911.dfa2322e.js"
   },
   {
-    "revision": "a0d8879b0ccb06c2904b",
-    "url": "/atools/js/gcal.a4a531ef.js"
+    "revision": "eb6cdcb860dac1885331",
+    "url": "/atools/js/gcal.d7607f18.js"
   },
   {
-    "revision": "63dc68036f1d38f9a21f",
-    "url": "/atools/js/runtime~app.f23e0812.js"
+    "revision": "99c32a6e26de7d528544",
+    "url": "/atools/js/home.7ddee57d.js"
+  },
+  {
+    "revision": "29218b20937b2be315a1",
+    "url": "/atools/js/runtime~app.37b26bd1.js"
   },
   {
     "revision": "d19be80d05ba907cd175",
